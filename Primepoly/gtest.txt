@@ -1,0 +1,3 @@
+установка nuget пакета в пароект(poly).
+Microsoft.googletest.v140.windesctop.msvcstl.static.rt-dyn
+#include "gtest/gtest.h" пишется в самом верху файла
