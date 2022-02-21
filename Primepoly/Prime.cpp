@@ -13,3 +13,14 @@ char* Prime::int2bin(uint a) {
 	}
 	return s;
 }
+
+uint Prime::bin2int(char* s) {
+	uint tmp = 0;
+	for (int i = 0; s[i] != 0; i++) {
+		tmp *= 2;
+		if ((s[i] == 1) || (s[i] == '1')) {
+			tmp++;
+		}
+	}
+	return tmp;
+}
